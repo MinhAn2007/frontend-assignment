@@ -1,7 +1,7 @@
-import './style.css';
+import "./style.css";
 
 const AboutListContent = () => {
-    return `
+  return `
         <div class="about-list">
             <h2>10 Breakthrough Technologies</h2>
             <div class="about-list-content">
@@ -31,6 +31,6 @@ const AboutListContent = () => {
             </div>
         </div>
     `;
-}
+};
 
 export default AboutListContent;

@@ -8,18 +8,18 @@
     margin: auto;
     height: 100%;
     margin-bottom: 200px;
-  }
-  
-  .about-list h2 {
+}
+
+.about-list h2 {
     font-size: 60px;
     line-height: 60px;
     text-align: center;
     font-weight: 700;
     background: #eeeceaba;
     margin-bottom: 50px;
-  }
-  
-  .about-list-content {
+}
+
+.about-list-content {
     color: #000000;
     max-width: 100%;
     font-style: normal;
@@ -32,21 +32,22 @@
     align-items: flex-start;
     margin: auto;
     width: 30%;
-  
+
     p {
-      text-align: left;
+        text-align: left;
     }
-  }
+}
 
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
+
     /* About List */
     .about-list h2 {
-      font-size: 40px;
-      line-height: 40px;
+        font-size: 40px;
+        line-height: 40px;
     }
-  
+
     .about-list-content {
-      width: 90%;
+        width: 90%;
     }
-  }
+}

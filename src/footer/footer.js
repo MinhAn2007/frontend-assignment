@@ -1,5 +1,5 @@
-import LogoMIT from '/mit-logo white.svg';
-import './style.css';
+import LogoMIT from "/mit-logo white.svg";
+import "./style.css";
 
 const Footer = () => {
     return `
@@ -54,6 +54,6 @@ const Footer = () => {
             </div>
         </div>
     `;
-}
+};
 
 export default Footer;

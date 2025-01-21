@@ -5,18 +5,18 @@
     padding: 20px;
     flex-direction: row;
     gap: 30px;
-  
-    button {
-      padding: 1rem 1.75rem;
-      font-weight: bold;
-    }
-  }
 
-  .footer-columns {
+    button {
+        padding: 1rem 1.75rem;
+        font-weight: bold;
+    }
+}
+
+.footer-columns {
     column-count: 2;
-    column-gap: 20px; 
-  }
-  
-  .footer-columns li {
+    column-gap: 20px;
+}
+
+.footer-columns li {
     break-inside: avoid;
-  }
+}

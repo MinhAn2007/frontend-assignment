@@ -1,6 +1,6 @@
-import LogoMIT from '/tr10-hero_mf79db_c_scale,w_1700.webp';
-import LogoMITHorizontal from '/mit-logo-horizontal.svg';
-import './style.css';
+import LogoMIT from "/tr10-hero_mf79db_c_scale,w_1700.webp";
+import LogoMITHorizontal from "/mit-logo-horizontal.svg";
+import "./style.css";
 
 const Cover = () => `
     <div class="cover">

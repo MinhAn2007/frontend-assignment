@@ -1,5 +1,5 @@
-import LogoMIT from '/mit-logo.svg';
-import './style.css';
+import LogoMIT from "/mit-logo.svg";
+import "./style.css";
 
 const NavigationBar = () => `
     <div class="logo">
@@ -21,20 +21,22 @@ const NavigationBar = () => `
     </div>
 `;
 
-document.addEventListener('DOMContentLoaded', function() {
-    const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
-    const navLinksContainer = document.querySelector('.nav-links-container');
+document.addEventListener("DOMContentLoaded", function () {
+  const mobileMenuBtn = document.querySelector(".mobile-menu-btn");
+  const navLinksContainer = document.querySelector(".nav-links-container");
 
-    mobileMenuBtn.addEventListener('click', () => {
-        navLinksContainer.classList.toggle('active');
-        mobileMenuBtn.textContent = navLinksContainer.classList.contains('active') ? '✕' : '☰';
+  mobileMenuBtn.addEventListener("click", () => {
+    navLinksContainer.classList.toggle("active");
+    mobileMenuBtn.textContent = navLinksContainer.classList.contains("active")
+      ? "✕"
+      : "☰";
 
-        if (navLinksContainer.classList.contains('active')) {
-            document.body.style.overflow = 'hidden';
-        } else {
-            document.body.style.overflow = 'auto';
-        }
-    });
+    if (navLinksContainer.classList.contains("active")) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  });
 });
 
 export default NavigationBar;

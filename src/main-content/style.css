@@ -7,26 +7,26 @@
     gap: 20px;
     padding: 20px;
     margin-bottom: 200px;
-  }
-  
-  .wrapper {
+}
+
+.wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  
-  .numbers-wrapper {
+}
+
+.numbers-wrapper {
     width: 100%;
     margin-left: 20%;
-  
+
     hr {
-      width: 8%;
-      margin: 0;
-      border: 1px solid #000;
+        width: 8%;
+        margin: 0;
+        border: 1px solid #000;
     }
-  }
-  
-  .numbers {
+}
+
+.numbers {
     position: sticky;
     display: flex;
     justify-content: flex-start;
@@ -34,76 +34,73 @@
     margin-bottom: 0;
     background: transparent;
     z-index: 5;
-  }
-  
-  .numbers span {
+}
+
+.numbers span {
     font-size: 20px;
     font-weight: normal;
     cursor: pointer;
     transition: all 0.3s ease;
-  }
-  
-  .numbers span.active {
+}
+
+.numbers span.active {
     font-weight: bold;
     font-size: 24px;
     color: black;
-  }
-  
-  .container {
+}
+
+.container {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-  }
-  
-  .section-content {
+}
+
+.section-content {
     width: 50%;
-  }
-  
-  .section-image-scroll {
+}
+
+.section-image-scroll {
     width: 50%;
     max-width: 50vw;
-  
+
     img {
-      border-radius: 20%;
-      margin-top: 40px;
+        border-radius: 20%;
+        margin-top: 40px;
     }
-  }
-  
-  .section-image {
+}
+
+.section-image {
     display: flex;
     flex-direction: row;
     overflow: auto;
     height: 500px;
-  }
-  
-  .section-image::-webkit-scrollbar {
-    display: none;
-  }
+}
 
-  @media (max-width: 768px) {
-    
+.section-image::-webkit-scrollbar {
+    display: none;
+}
+
+@media (max-width: 768px) {
     /* Main Content */
-  
     .container {
-      flex-direction: column;
+        flex-direction: column;
     }
-  
+
     .section-content,
     .section-image {
-      width: 100%;
+        width: 100%;
     }
-  
+
     .section-image-scroll img {
-      max-width: 100%;
+        max-width: 100%;
     }
-  
+
     .numbers-wrapper {
-      margin-left: 10%;
+        margin-left: 10%;
     }
-  
+
     .numbers-wrapper hr {
-      width: 25%;
+        width: 25%;
     }
-  
-  }
-  
+
+}
